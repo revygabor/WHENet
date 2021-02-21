@@ -1,3 +1,5 @@
+copied from: https://github.com/Ascend-Research/HeadPoseEstimation-WHENet
+
 WHENet: Real-time Fine-Grained Estimation for Wide Range Head Pose
 ===
 **Yijun Zhou and James Gregson - BMVC2020**
