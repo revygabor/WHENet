@@ -8,7 +8,7 @@ import colorsys
 from timeit import default_timer as timer
 
 import numpy as np
-from keras import backend as K
+import tensorflow.compat.v1.keras.backend as K
 from keras.models import load_model
 from keras.layers import Input
 from PIL import Image, ImageFont, ImageDraw
@@ -18,6 +18,8 @@ from .utils import letterbox_image
 import os
 # from keras.utils import multi_gpu_model
 import cv2
+
+tf.compat.v1.disable_eager_execution()
 
 def data_file( filename ):
     """Prepend the path to the data subdirectory to filename"""
