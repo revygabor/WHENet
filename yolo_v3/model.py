@@ -7,7 +7,7 @@ from functools import wraps
 
 import numpy as np
 import tensorflow as tf
-from keras import backend as K
+import tensorflow.compat.v1.keras.backend as K
 from keras.layers import Conv2D, Add, ZeroPadding2D, UpSampling2D, Concatenate, MaxPooling2D
 from keras.layers.advanced_activations import LeakyReLU
 from keras.layers.normalization import BatchNormalization
