@@ -1,5 +1,13 @@
 copied from: https://github.com/Ascend-Research/HeadPoseEstimation-WHENet
 
+yolo weights: https://drive.google.com/uc?id=1wGrwu_5etcpuu_sLIXl9Nu0dwNc8YXIH  
+`gdown --id 1wGrwu_5etcpuu_sLIXl9Nu0dwNc8YXIH`  
+save yolo weights to: WHENet/yolo_v3/data
+
+testing: `python demo_video.py --video video.mp4 --output video_head_pose.avi`
+
+-------------------------
+
 WHENet: Real-time Fine-Grained Estimation for Wide Range Head Pose
 ===
 **Yijun Zhou and James Gregson - BMVC2020**
